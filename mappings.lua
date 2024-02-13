@@ -32,6 +32,7 @@ return {
     ["<leader>w<Up>"] = { "<cmd>winc k<cr>", desc = "Window up" },
     ["<leader>w<Right>"] = { "<cmd>winc l<cr>", desc = "Window right" },
     ["<leader>w<Down>"] = { "<cmd>winc j<cr>", desc = "Window down" },
+    ["<leader>wq"] = { "<cmd>winc q<cr>", desc = "Window quit" },
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
