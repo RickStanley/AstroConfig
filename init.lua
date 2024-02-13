@@ -50,8 +50,11 @@ return {
     },
     -- enable servers that you already have installed without mason
     servers = {
-      "tsserver"
+      "tsserver",
       -- "pyright"
+      "pylsp",
+      "clangd",
+      "serve_d"
     },
   },
 
